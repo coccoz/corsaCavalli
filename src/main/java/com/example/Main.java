@@ -8,9 +8,14 @@ public class Main {
         Cavallo c2 = new Cavallo;
         Cavallo c3 = new Cavallo;
 
-        c1.run();
-        c2.run();
-        c3.run();
+        c1.start();
+        c2.start();
+        c3.start();
+
+        c1.join();
+        c2.join();
+        c3.join();
+
 
     }
 }

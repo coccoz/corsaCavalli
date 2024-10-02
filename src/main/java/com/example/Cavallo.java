@@ -1,4 +1,4 @@
-public class Cavallo {
+public class Cavallo extends Thread {
     public run
     {
         int n;
